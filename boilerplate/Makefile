@@ -3,14 +3,14 @@ OTA ?= none
 
 # Base directory for the compiler. Needs a / at the end; if not set it'll use the tools that are in
 # the PATH.
-XTENSA_TOOLS_ROOT ?= /home/doanhoa/esp-open-sdk/crosstool-NG/builds/xtensa-lx106-elf/bin/
+XTENSA_TOOLS_ROOT ?= /tool/esp-open-sdk/crosstool-NG/builds/xtensa-lx106-elf/bin/
 
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= /home/doanhoa/esp-open-sdk/sdk
+SDK_BASE	?= /tool/esp-open-sdk/sdk
 
 #Esptool.py path and port
-ESPTOOL		?= /home/doanhoa/esp-open-sdk/esptool/esptool.py
+ESPTOOL		?= /tool/esp-open-sdk/esptool/esptool.py
 ESPPORT		?= /dev/ttyUSB0
 #ESPPORT		?= /dev/tty.wchusbserial1410
 #ESPDELAY indicates seconds to wait between flashing the two binary images
